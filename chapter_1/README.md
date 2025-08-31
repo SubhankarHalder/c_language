@@ -74,6 +74,14 @@
 - **putchar** prints a character each time
 - **EOF** is an integer defined in `<stdio.h>`
 - Precedence of `!=` is higher than that of `=`
+- Operators **++** and **--** can be either prefix or postfix operators
+- Prefix and Postfix operators have different values in expressions
+- **long** integers are at least 32 bits
+- **%ld%** is a printf format specifier for a long integer
+- **double** datatype stands for double precision float
+- In C, a for statement must have a body
+- One can use a **semicolon**, called a **null statement** in the for loop body if we want to have an empty for loop body
+
 
 
 
