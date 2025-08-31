@@ -38,8 +38,8 @@
 | printf Format Specifier | Explanation |
 | --- | --- |
 | %d | Print as decimal integer |
-| %6d | Print as decimal integer |
-| %f | Print as floatin point |
+| %6d | Print as decimal integer, at least 6 characters wide |
+| %f | Print as floating point |
 | %6f | Print as floating point, at least 6 characters wide |
 | %.2f | Print as floating point, 2 characters after decimal point |
 | %6.2f | Print as floating point, at least 6 wide and 2 after decimal point|
@@ -52,6 +52,29 @@
 ## Section 1.3
 
 - For Loop:
+
 `for (fahr = 0; fahr <= 300; fahr = fahr + 20)`
+
+## Section 1.4
+
+- A **Symbolic Constant** is a named value defined with #define
+- Symbolic Constant Format:
+
+`#define name replacement_text`
+
+- They are not variables so they do not appear in declarations
+- They are conventionally written in upper case
+- They do not have semicolon at the end
+
+## Section 1.5
+
+- A *text stream* is a sequence of characters divided into *lines*
+- Each *line* consists of zero or more characters followed by a newline character
+- **getchar** reads the next input character from a text stream and returns that as its value
+- **putchar** prints a character each time
+- **EOF** is an integer defined in `<stdio.h>`
+- Precedence of `!=` is higher than that of `=`
+
+
 
 
